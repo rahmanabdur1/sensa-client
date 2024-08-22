@@ -2,7 +2,6 @@ import style from './Checkout.module.css'
 import img1 from '../../assets/images/checkout/level_graph_down.jpg'
 import img2 from '../../assets/images/checkout/bean_can_do_it_en.jpg'
 import img3 from '../../assets/images/checkout/now_vs_after_graph.jpg'
-import img4 from '../../assets/images/checkout/bean_holding_heart.jpg'
 import img5 from '../../assets/images/checkout/MedicalTeam.jpg'
 import img6 from '../../assets/images/checkout/bean_champion (1).jpg'
 import info1 from '../../assets/images/checkout/lessons.jpg'
@@ -17,8 +16,9 @@ import thumb_up from '../../assets/images/checkout/thumb_up.jpg'
 import { OfferPlan } from './OfferPlan/OfferPlan'
 import { ProcrastinationPercentics } from './ProcrastinationPercentics/ProcrastinationPercentics'
 import { PeopleAsk } from './PeopleAsk/PeopleAsk'
-import { Link, Navigate } from 'react-router-dom'
+import { Link} from 'react-router-dom'
 import { useEffect, useState } from 'react'
+
 
 const beforeData = [
     "Letting things slip your mind",

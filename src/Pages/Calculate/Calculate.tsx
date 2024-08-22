@@ -1,12 +1,11 @@
 import { useState, useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {faCircleCheck} from '@fortawesome/free-solid-svg-icons';
+import { faCircleCheck } from '@fortawesome/free-solid-svg-icons';
 import style from './Calculate.module.css';
 import calculate_img from '../../assets/images/calculate/bean_calculating.jpg';
 import { useNavigate } from 'react-router-dom';
 
-
-const solutionsList = [
+const solutionsList: string[] = [
   'Create a daily routine',
   'Practice mindfulness exercises',
   'Set realistic goals',
@@ -16,12 +15,12 @@ const solutionsList = [
 
 export function Calculate() {
   const navigate = useNavigate(); 
-  const [progressWidth, setProgressWidth] = useState(0);
-  const [visibleSolutions, setVisibleSolutions] = useState([]);
-  const [currentIndex, setCurrentIndex] = useState(0);
+  const [progressWidth, setProgressWidth] = useState<number>(0);
+  const [visibleSolutions, setVisibleSolutions] = useState<string[]>([]);
+  const [currentIndex, setCurrentIndex] = useState<number>(0);
 
   useEffect(() => {
-    const timeoutIds = [];
+    const timeoutIds: number[] = [];
     solutionsList.forEach((solution, index) => {
       if (currentIndex >= 4) {
         return;
@@ -42,13 +41,12 @@ export function Calculate() {
       }, (index + 1) * 200);
 
       timeoutIds.push(timeoutId);
-      
     }); 
 
     return () => {
       timeoutIds.forEach((timeoutId) => clearTimeout(timeoutId));
     };
-  },[history]);
+  }, [currentIndex, navigate]);
 
   return (
     <div className={style.container}>
@@ -66,7 +64,7 @@ export function Calculate() {
           {visibleSolutions.map((solution, index) => (
             <li className={style.solutionsList} key={index}>
               <span>
-                <FontAwesomeIcon icon={faCircleCheck} className={style.checkIcon}/>
+                <FontAwesomeIcon icon={faCircleCheck} className={style.checkIcon} />
               </span>
               <span> {solution}</span>
             </li>

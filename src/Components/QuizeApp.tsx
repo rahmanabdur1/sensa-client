@@ -1,6 +1,12 @@
 import React, { useState } from 'react';
 
-const quizData = [
+type QuizQuestion = {
+  question: string;
+  options: string[];
+  correctAnswer: string;
+};
+
+const quizData: QuizQuestion[] = [
   {
     question: 'What is the capital of France?',
     options: ['Berlin', 'Madrid', 'Paris', 'Rome'],
@@ -14,12 +20,12 @@ const quizData = [
   // Add more questions as needed
 ];
 
-const QuizApp = () => {
-  const [currentQuestion, setCurrentQuestion] = useState(0);
-  const [userAnswers, setUserAnswers] = useState([]);
-  const [showResults, setShowResults] = useState(false);
+const QuizApp: React.FC = () => {
+  const [currentQuestion, setCurrentQuestion] = useState<number>(0);
+  const [userAnswers, setUserAnswers] = useState<string[]>([]);
+  const [showResults, setShowResults] = useState<boolean>(false);
 
-  const handleAnswerClick = (selectedAnswer) => {
+  const handleAnswerClick = (selectedAnswer: string) => {
     setUserAnswers([...userAnswers, selectedAnswer]);
 
     if (currentQuestion + 1 < quizData.length) {
