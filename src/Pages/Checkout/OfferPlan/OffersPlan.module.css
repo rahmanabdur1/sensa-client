@@ -1,0 +1,33 @@
+.container{
+    max-width: 1140px;
+    margin: 100px auto auto auto;
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    text-align: center;
+}
+
+
+.plans{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+
+.plan{
+    display: flex;
+    flex-direction: row;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 20px;
+    padding: 20px;
+    gap: 10px;
+}
+
+
+.apply_plan{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

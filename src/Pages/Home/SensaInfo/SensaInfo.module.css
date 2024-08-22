@@ -1,0 +1,106 @@
+.container {
+    max-width: 1180px;
+    margin: 90px auto 100px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+}
+
+.info_content {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.sensa_text {
+    max-width: 650px;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.sensa_text h2 {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 31px;
+    word-spacing: 3px;
+    font-weight: 400;
+    color: black;
+}
+
+.sensa_text p {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 17px;
+    line-height: 24px;
+    word-spacing: 2px;
+    color: #595959;
+}
+
+.infoItem {
+    width: 33.33%;
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+    align-items: center;
+    text-align: center;
+    padding: 10px 23px 10px 23px;
+}
+
+.infoItem img {
+    width: 110px;
+}
+
+.infoItem p {
+    font-size: 15.5px;
+    line-height: 20px;
+    word-spacing: 2px;
+    font-family: 'Work Sans', sans-serif;
+    color: #191919;
+
+}
+
+@media only screen and (max-width: 900px) {
+    .info_content {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        gap: 40px;
+    }
+
+    .infoItem {
+        width: 40%;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 700px) {
+    .container {
+        padding-left: 10px;
+        padding-right: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .info_content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .infoItem {
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+
+}

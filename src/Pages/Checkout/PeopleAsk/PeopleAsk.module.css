@@ -1,0 +1,10 @@
+
+
+.peopleAsk{
+    max-width: 1140px;
+    margin: 100px auto auto auto;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    text-align: center;
+}

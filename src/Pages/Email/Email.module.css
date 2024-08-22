@@ -1,0 +1,85 @@
+.container {
+    display: flex;
+    align-items: center;
+    gap: 300px;
+    margin: 70px auto auto auto;
+    max-width: 1230px;
+}
+
+.content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.form{
+    position: relative;
+}
+
+.img {
+    flex: 1;
+}
+     
+.form  label {   
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    position: absolute;
+    left: 20px;   
+    top: 26%;   
+    transition: font-size 0.3s;
+    font-size: 17px;    
+}
+
+.content label:nth-child(1){
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 25px;    
+}
+    
+.content input {
+    width: 100%;
+    padding: 22px;
+    box-sizing: border-box;
+    outline: none;
+    border:1px solid   #717171;
+    border-radius: 5px;
+
+}
+
+.form input:focus +label {
+    top: 12%;   
+    transition: font-size 0.3s;
+    font-size: 13px;
+    color: #20b2aa;
+}
+
+.form.labeled  input +label {
+    top: 12%;   
+    transition: font-size 0.3s;
+    font-size: 13px;
+    color: #20b2aa;
+}
+
+
+.form input:focus{
+    border: 2px solid #20b2aa;
+}
+
+.container button {
+    background-color: #20b2aa;
+    padding: 22px 90px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    border-radius: 10px;
+    transition: width 0.3s, padding 0.3s, background-color 0.3s, box-shadow 0.3s; /* Added 'padding' to the transition property */
+    color: #fff;
+    width: 100%;
+}
+

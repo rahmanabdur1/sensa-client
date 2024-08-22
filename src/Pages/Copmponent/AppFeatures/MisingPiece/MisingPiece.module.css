@@ -1,0 +1,16 @@
+.container{
+    text-align: center;
+}
+
+.missing_piece {
+    display: flex;
+    flex-direction: row;
+    /* Your existing styles for the missing_piece container */
+  }
+  
+  .missing_piece.flexReverse {
+    display: flex;
+    flex-direction: row-reverse;
+    /* Additional styles for reversed column direction if needed */
+  }
+

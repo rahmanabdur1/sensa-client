@@ -1,0 +1,69 @@
+{
+  "navbar": {
+    "home": "Inicio",
+    "about": "Acerca de",
+    "appFeatures": "Funciones de la Aplicación",
+    "forEmployers": "Para Empleadores",
+    "blog": "Blog",
+    "language": "Idioma"
+  },
+  "banner": {
+    "heading": "Tu salud mental es importante – Sensa te brinda las herramientas para ayudarte a mejora",
+    "category-heading": "¿Con qué estás luchando más en este momento?"
+  },
+  "sencaCategory": {
+    "loading": "Cargando...",
+    "stress / anxiety": "Estrés/Ansiedad",
+    "adhd": "TDAH",
+    "procrastination": "Procrastinación",
+    "burnout": "Agotamiento",
+    "self-esteem": "Autoestima",
+    "fatigue / exhaustion": "Fatiga/Agotamiento",
+    "social anxiety": "Ansiedad social",
+    "ptsd": "TEPT",
+    "asd": "TEA",
+    "disorganization": "Desorganización"
+  },
+  "sensaInfo": {
+    "title": "¿Por qué Sensa?",
+    "intro": "Sensa está diseñado para atender a una amplia gama de usuarios que sufren diversas formas de problemas de salud mental. Aquí hay algunas formas en que puede ayudarte.",
+    "content1": "Contenido en constante evolución revisado por terapeutas conductuales profesionales.",
+    "content2": "Te guía en tu viaje con consejos adaptados a tus necesidades exactas.",
+    "content3": "Te proporciona las herramientas que necesitas para trabajar en ti mismo."
+  },
+  "importandOfSansa": {
+    "section1": {
+      "title": "¿Por qué importa?",
+      "text1": "¿Sabías que el 76% de los estadounidenses tuvieron problemas de estrés o ansiedad solo en el último año?",
+      "text2": "Desafortunadamente, la gravedad de condiciones como el estrés, la ansiedad y la depresión a menudo se subestima; estos problemas pueden manifestarse en síntomas físicos si no se tratan adecuadamente.",
+      "text3": "Sensa está diseñado para ayudarte con cualquier problema de salud mental que te afecte más. Desde el agotamiento hasta la procrastinación, el TDAH hasta la ansiedad, y todo lo demás."
+    },
+    "section2": {
+      "title": "¿Qué es Sensa?",
+      "text1": "Sensa es una aplicación móvil diseñada para ser tu guía completa para mejorar la salud mental. Basado en los principios de la Terapia Cognitivo-Conductual (TCC), Sensa utiliza técnicas desarrolladas para combatir una multitud de problemas de salud mental, incluyendo ansiedad, estrés, depresión, procrastinación, TDAH, autoestima y agotamiento.",
+      "text2": "Esta lista está creciendo constantemente, sin embargo; y Sensa siempre está buscando nuevas formas de ayudar a los usuarios, sin importar por lo que estén pasando."
+    }
+  },
+  "clientReviews": {
+    "title": "No te quedes solo con nuestras palabras",
+    "subtitle": "Descubre cómo Sensa ha mejorado la vida de estos usuarios:"
+  },
+  "reviewsData": {
+      "content1": "Sensa ha cambiado completamente mi vida. Estaba luchando mucho con la procrastinación y la ansiedad generalizada, pero la orientación diaria y las lecciones me han permitido enfocarme realmente en mí misma y sentirme mucho mejor como resultado.",
+      "content2": "Estaba tan acostumbrado a estar completamente agotado. Trabajar turnos de 12 horas y sentirme cansado y agotado era simplemente parte de mi rutina, pero no me di cuenta de cuánto de estos síntomas eran signos de agotamiento hasta que probé Sensa. Mi rutina no ha cambiado, pero la forma en que la veo sí, ¡y la mente es algo poderoso!",
+      "content3": "Siempre veía mi TDAH como una parte de mi vida, hasta que empezó a causarme problemas serios en mi rendimiento laboral. A través de Sensa, aprendí a planificar y gestionar mis tareas diarias de manera efectiva, y sin que me sintiera abrumada."
+  },
+    
+  "footer": {
+    "heading": "sensa.salud",
+    "disclaimer": "Descargo de responsabilidad: Los resultados pueden variar debido a diferencias individuales. Además, las aplicaciones de autoayuda mental como Sensa no reemplazan ni son una forma de terapia, ni están destinadas a curar, tratar o diagnosticar afecciones médicas, incluidas las psiquiátricas. Consulte a un proveedor de atención médica calificado para obtener un plan de tratamiento médico.",
+    "rightsReserved": "© 2023 Sensa. Todos los derechos reservados.",
+    "mySubscription": "Mi Suscripción",
+    "contacts": "Contactos",
+    "helpCenter": "Centro de Ayuda",
+    "privacyPolicy": "Política de Privacidad",
+    "termsConditions": "Términos y Condiciones"
+  }
+
+  
+}

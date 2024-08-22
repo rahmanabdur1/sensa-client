@@ -1,0 +1,28 @@
+.appFeatures_content{
+    display: flex;
+    flex-direction: row;
+}
+
+.appFeatures{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    max-width: 1220px;
+    text-align: center;
+    margin: 60px auto auto auto;
+}
+
+.leftside_features{
+    width: 33.33%;
+}
+
+.show_card_features{
+    width: 33.33%;
+}
+.showCardFeature img{
+ width: 70%;
+}
+
+.rightside_features{
+    width: 33.33%;
+}

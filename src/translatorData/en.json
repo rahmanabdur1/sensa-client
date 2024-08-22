@@ -1,0 +1,72 @@
+{
+    "navbar": {
+      "home": "Home",
+      "about": "About",
+      "appFeatures": "App Features",
+      "forEmployers": "For Employers",
+      "blog": "Blog",
+      "language": "Language"
+    },
+
+    "banner": {
+      "heading": "Your mental health is important – Sensa gives you the tools to help you improve it",
+      "category-heading": "What are you struggling with the most right now?"
+    },
+
+    "sencaCategory": {
+      "loading": "Loading...",
+      "stress / anxiety": "Stress/Anxiety",
+      "adhd": "ADHD",
+      "procrastination": "Procrastination",
+      "burnout": "Burnout",
+      "self-esteem": "Self-esteem",
+      "fatigue / exhaustion": "Fatigue/Exhaustion",
+      "social anxiety": "Social Anxiety",
+      "ptsd": "PTSD",
+      "asd": "ASD",
+      "disorganization": "Disorganization"
+    },
+    "sensaInfo": {
+      "title": "Why Sensa?",
+      "intro": "Sensa is designed to cater to a wide range of users, suffering from many forms of mental health issues. Here's some of the ways it can help you.",
+      "content1": "Constantly-evolving content reviewed by professional behavioral therapists.",
+      "content2": "Guides you through your journey with advice tailored to your exact needs.",
+      "content3": "Provides you with the tools you need to work on yourself."
+    },
+    
+    "importandOfSansa": {
+      "section1": {
+        "title": "Why does it matter?",
+        "text1": "Did you know that 76% of Americans encountered stress or anxiety issues in the past year alone?",
+        "text2": "Unfortunately, the seriousness of conditions like stress, anxiety, and depression is often understated – these issues can manifest into physical symptoms if not treated properly.",
+        "text3": "Sensa is built to help you through whatever mental health issues affect you most. From burnout to procrastination, ADHD to anxiety, and everything in between."
+      },
+      "section2": {
+        "title": "What is Sensa?",
+        "text1": "Sensa is a mobile application designed to work as your complete guide to improved mental health. Built upon the principles of Cognitive Behavioral Therapy (CBT), Sensa utilizes developed techniques to fight against a plethora of mental health issues, including anxiety, stress, depression, procrastination, ADHD, Self-esteem and burnout.",
+        "text2": "This list is constantly growing, however; and Sensa is always looking for new ways to help users no matter what they suffer from."
+      }
+    },
+    "clientReviews": {
+      "title": "Don’t just take our word for it",
+      "subtitle": "Hear how Sensa has improved the lives of these users:"
+    },
+  
+    "reviewsData": {
+      "content1": "Sensa has completely changed my life. I was struggling a lot with procrastination and generalized anxiety, but the daily guidance and lessons have allowed me to really focus on myself and feel much better as a result.",
+      "content2": "I was so used to being completely exhausted. Working 12-hour shifts and feeling tired and drained was just part of my routine, but I didn’t realize how much of these symptoms were signs of burnout until I tried Sensa. My routine hasn’t changed, but the way I view it has, and the mind is a powerful thing!",
+      "content3": "I always viewed my ADHD as just a part of my life, until it started causing me serious issues in my work performance. Through Sensa, I learned to plan and manage my daily tasks effectively, and without feeling overwhelmed."
+    },
+    "footer": {
+      "heading": "sensa.health",
+      "disclaimer": "Disclaimer: Results may vary due to individual differences. In addition, mental self-help apps like Sensa are not a replacement for or a form of therapy, nor are they intended to cure, treat, or diagnose medical conditions, including psychiatric conditions. Please consult a qualified health care provider for a medical treatment plan.",
+      "rightsReserved": "© 2023 Sensa. All rights reserved.",
+      "mySubscription": "My Subscription",
+      "contacts": "Contacts",
+      "helpCenter": "Help Center",
+      "privacyPolicy": "Privacy Policy",
+      "termsConditions": "Terms & Conditions"
+    }
+    
+    
+  }

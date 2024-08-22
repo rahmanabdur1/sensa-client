@@ -1,0 +1,22 @@
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background:#fafafa;
+    padding: 70px 40px 40px 40px;
+    font-family: 'Mulish', sans-serif;
+}
+
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.sidebar a{
+  text-decoration: none;
+  color: aquamarine;
+}

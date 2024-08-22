@@ -1,0 +1,69 @@
+{
+    "navbar": {
+      "home": "Início",
+      "about": "Sobre",
+      "appFeatures": "Recursos do Aplicativo",
+      "forEmployers": "Para Empregadores",
+      "blog": "Blog",
+      "language": "Idioma"
+    },
+    "banner": {
+      "heading":"A sua saúde mental é importante – Sensa dá-lhe as ferramentas para o ajudar a melhorá-la",
+      "category-heading": "Com o que você está mais lutando agora?"
+    },
+    "sencaCategory": {
+      "loading": "Carregando...",
+      "stress / anxiety": "Estresse / Ansiedade",
+      "adhd": "TDAH",
+      "procrastination": "Procrastinação",
+      "burnout": "Esgotamento",
+      "self-esteem": "Autoestima",
+      "fatigue / exhaustion": "Fadiga / Exaustão",
+      "social anxiety": "Ansiedade social",
+      "ptsd": "TEPT",
+      "asd": "TEA",
+      "disorganization": "Desorganização"
+    },
+    "sensaInfo": {
+      "title": "Por que Sensa?",
+      "intro": "Sensa foi projetado para atender a uma ampla gama de usuários, sofrendo de diversas formas de problemas de saúde mental. Aqui estão algumas maneiras como ele pode ajudar você.",
+      "content1": "Conteúdo em constante evolução revisado por terapeutas comportamentais profissionais.",
+      "content2": "Guia você em sua jornada com conselhos adaptados às suas necessidades exatas.",
+      "content3": "Fornece as ferramentas que você precisa para trabalhar em si mesmo."
+    },
+    "importandOfSansa": {
+      "section1": {
+        "title": "Por que isso importa?",
+        "text1": "Você sabia que 76% dos americanos enfrentaram problemas de estresse ou ansiedade apenas no último ano?",
+        "text2": "Infelizmente, a seriedade de condições como estresse, ansiedade e depressão muitas vezes é subestimada - esses problemas podem se manifestar em sintomas físicos se não forem tratados adequadamente.",
+        "text3": "Sensa foi projetado para ajudá-lo com quaisquer problemas de saúde mental que mais afetem você. Desde burnout até procrastinação, TDAH até ansiedade, e tudo mais."
+      },
+      "section2": {
+        "title": "O que é Sensa?",
+        "text1": "Sensa é um aplicativo móvel projetado para ser seu guia completo para melhorar a saúde mental. Construído com base nos princípios da Terapia Cognitivo-Comportamental (TCC), Sensa utiliza técnicas desenvolvidas para combater uma infinidade de problemas de saúde mental, incluindo ansiedade, estresse, depressão, procrastinação, TDAH, autoestima e burnout.",
+        "text2": "Esta lista está crescendo constantemente; e Sensa está sempre buscando novas maneiras de ajudar os usuários, não importa o que estejam enfrentando."
+      }
+    },
+    "clientReviews": {
+      "title": "Não acredite apenas em nossas palavras",
+      "subtitle": "Veja como o Sensa melhorou a vida desses usuários:"
+    },   
+    "reviewsData": {
+      "content1": "O Sensa mudou completamente a minha vida. Eu estava a lutar muito com a procrastinação e a ansiedade generalizada, mas a orientação diária e as lições permitiram-me focar verdadeiramente em mim mesma e sentir-me muito melhor como resultado.",
+      "content2": "Estava tão habituado a estar completamente exausto. Trabalhar turnos de 12 horas e sentir-me cansado e exausto era apenas parte da minha rotina, mas não percebi o quanto desses sintomas eram sinais de exaustão até experimentar o Sensa. A minha rotina não mudou, mas a forma como a vejo sim, e a mente é algo poderoso!",
+      "content3": "Sempre vi o meu TDAH como apenas uma parte da minha vida, até que começou a causar-me problemas sérios no meu desempenho no trabalho. Através do Sensa, aprendi a planear e gerir as minhas tarefas diárias de forma eficaz, e sem me sentir sobrecarregado."
+    },
+
+    
+  "footer": {
+    "heading": "sensa.saúde",
+    "disclaimer": "Isenção de responsabilidade: os resultados podem variar devido a diferenças individuais. Além disso, aplicativos de autoajuda mental como o Sensa não substituem ou são uma forma de terapia, nem se destinam a curar, tratar ou diagnosticar condições médicas, incluindo condições psiquiátricas. Consulte um profissional de saúde qualificado para obter um plano de tratamento médico.",
+    "rightsReserved": "© 2023 Sensa. Todos os direitos reservados.",
+    "mySubscription": "Minha Assinatura",
+    "contacts": "Contatos",
+    "helpCenter": "Centro de Ajuda",
+    "privacyPolicy": "Política de Privacidade",
+    "termsConditions": "Termos e Condições"
+  }
+    
+  }

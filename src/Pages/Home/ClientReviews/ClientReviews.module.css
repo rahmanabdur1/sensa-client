@@ -1,0 +1,205 @@
+.container {
+    background-color: #fff3f7;
+    margin-top: 50px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #404040;
+    font-size: 15.2px;
+    line-height: 20px;
+    word-spacing: 2px;
+}
+
+.review_content{
+    max-width: 1260px;
+    text-align: center;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.review_text {
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+.review_text h2 {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    color: black;
+}
+
+.review_text p { 
+    font-family: 'Mukta', sans-serif;
+    font-size: 17px;
+    word-spacing: 3px;
+    font-weight: 300;
+    color: black;
+}
+
+.reviewItems {
+    margin-top: 15px;
+    gap: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.reviewItem {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    text-align: start;
+    background: #ffffff;
+    padding: 30px 25px 30px 25px ;
+    border-radius: 20px;
+    max-width: 400px;
+    width: 100%;
+    margin: 20px auto auto auto;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    ;
+}
+
+.reviewItem_text{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.reviewItem_text span:nth-child(1){
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.reviewItem_text span:nth-child(2){
+    font-size: 12.5px;
+    font-family: 'Inter', sans-serif;
+    color:#6f6f6f;
+    font-weight: 400;
+}
+.stars{
+    color: #f6b278;
+    display: flex;
+    gap: 8px;
+    font-size: 25px;
+}
+.client_review p {
+    color:#323232;
+    font-weight: 400;
+    text-align: start;
+    line-height: 25px;
+    font-size: 16.7px;
+    font-family: 'Hind Madurai', sans-serif;
+ }
+
+ .navigate_btn {
+    display: none;
+}
+
+.navigate_btn button {
+    border: none;
+    padding: 4px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.selected{
+    background-color: #53e3d5;
+}
+
+.navigate_btn button:not(.selected) {
+    border: .2px solid #53e3d5;
+}
+
+
+
+@media only screen and (max-width: 1000px) {
+    .reviewItems {
+        gap: 20px;
+        display: flex;
+        justify-content: center;
+    }
+   
+    .navigate_btn {
+        padding-top: 25px;
+        display: block;
+        flex-direction: row;
+        gap: 5px;
+        width: max-content;
+        margin: auto;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 1000px) {
+    .reviewItems {
+        gap: 20px;
+        display: flex;
+        flex-direction: row;
+        padding-left: 20px;
+        overflow-x: hidden; 
+    }
+   
+    .reviewItem:last-child {
+        margin-right: -230px;
+    }
+   
+    .review_content{
+        padding-top: 20px;
+        padding-left: 0px;
+        padding-bottom: 30px;
+        background-color: red;
+    }
+    .navigate_btn {
+        padding-top: 25px;
+        display: block;
+        flex-direction: row;
+        gap: 5px;
+        width: max-content;
+        margin: auto;
+    }
+
+}
+
+@media only screen and (max-width: 700px) {
+    .reviewItems {
+        gap: 20px;
+        display: flex;
+        flex-direction: row;
+        padding-left: 20px;
+        overflow-x: hidden;
+        background-color: blue;
+    }
+    .reviewItem:last-child {
+        margin-right: -440px;
+    }
+    .reviewItem:nth-child(2) {
+        margin-right: -330px;
+    }
+    .reviewItem:nth-child(1) {
+        max-width: 100%;
+    }
+    }
+
+
+
+    @media only screen and (max-width: 500px) {
+        .reviewItems {
+            gap: 20px;
+            display: flex;
+            flex-direction: row;
+            padding-left: 20px;
+            overflow-x: hidden;
+        }
+        .reviewItem:last-child {
+            margin-right: -430px;
+        }
+        .reviewItem:nth-child(1) {
+            max-width: 100%;
+        }
+        .reviewItem:nth-child(2) {
+            margin-right: -370px; /* Adjust margin for the second child */
+        }
+        }
